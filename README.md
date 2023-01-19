@@ -16,7 +16,7 @@ It performs
 
 ## Getting Started
 
-## Dependencies
+### Dependencies
 *It has no other specific pre-requisites provided it runs on 64-bit device.
 
 ## .Featuers
