@@ -30,6 +30,7 @@ It performs
 - [x] Save on local storage
 - [x] Custom scrollbar
 
+## Contributors
 
 
 
