@@ -1,23 +1,15 @@
-# IH_Project_Jan23-
-  To-Do List
- #  📝 Table of Contents #
-   [About](#About "Goto About")
-   
+# IH_Project_Jan23-To-Do List
  
-  ## Description ##
+## Description 
 Todo-list is an application that allows to manage a list of tasks to do.
 It performs  
-           * adding
-           * updating
-           * deleting , of each task.
-           It has minimalistic design and basic functionality 
+* adding
+* updating
+* deleting , of each task.
+It has minimalistic design and basic functionality 
            
-## Program Specification ## 
-
-## Getting Started
-
 ### Dependencies
-*It has no other specific pre-requisites provided it runs on 64-bit device.
+* It has no other specific pre-requisites provided it runs on 64-bit device.
 
 ## .Featuers
 - [x] Show tasks list
@@ -31,8 +23,15 @@ It performs
 - [x] Custom scrollbar
 
 ## Contributors
+### Prutha Annadate 
+### Kushal Shah
+### Chinmay Mhatre
 
+## Getting Started/How to run: 
+To run locally on your device:
+* Dowload or clone all files from our repository 
+* Load all files to your preferred Ide
+* Run index.html 
 
-
-   
-              
+## Prerequisites:
+Device should support any one of the popular browsers (Chrome, Firefox, Safari, IE9, and Opera)
