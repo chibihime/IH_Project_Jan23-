@@ -1,0 +1,87 @@
+/* helper */
+.top {
+  padding: 2em 11em 2em 2em;
+  line-height: 1.8rem;
+}
+
+.mid {
+  text-align: right;
+  padding: 2em 0 2em 5em;
+  line-height: 1.8rem;
+}
+.bot {
+  padding: 2em 6em 2em 2em;
+  line-height: 1.7rem;
+}
+.wrapper {
+  flex: 1;
+}
+
+/* containers */
+
+.feature__container {
+  height: 100vh;
+  width: 70%;
+  padding: 2em;
+  margin: 0 auto;
+}
+
+.feature__container-top {
+  display: flex;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+}
+
+.feature__container-top img {
+  height: 50%;
+  width: 50%;
+  outline: 1px solid black;
+  box-shadow: 8px 8px;
+  margin-top: 8em;
+}
+
+.feature__container-middle {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.feature__container-middle img {
+  height: 50%;
+  width: 50%;
+  margin-top: 5em;
+  margin-left: 6em;
+}
+
+.feature__container-end {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.feature__container-end img {
+  height: 50%;
+  width: 50%;
+}
+
+.featuers_container-footer {
+  border-radius: 10px;
+  background: #a18aff;
+  display: flex;
+  justify-content: flex-end;
+  outline: 1px solid black;
+  margin-bottom: 2rem;
+  padding:0 6em;
+  box-shadow: 10px 10px black;
+}
+
+
+.featuers_container-footer li {
+  font-family: "Cabinet Grotesk Variable";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 5rem;
+  margin-right:3rem;
+  color: #ffffff;
+
+}
+
+

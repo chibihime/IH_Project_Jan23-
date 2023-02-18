@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+
+  font-family: "Cabinet Grotesk Variable";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 26px;
+  
+}
+
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0em 8em 0em 7em;
+  background: #a18aff;
+}
+
+.navbar__container-links-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cabinet Grotesk Variable";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21.0435px;
+  line-height: 26px;
+
+  text-align: center;
+  color: #fff;
+}
+
+.navbar__container-links-link a:hover{
+    color: #fac608;
+}
+
+.navbar__container-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__container-links-link {
+  width: 100%;
+  flex: 70%;
+}
+
+.navbar__container-links .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 34%;
+  padding-top: 0.3em;
+  margin-right: 2rem;
+}
+.navbar__container-links .logo img {
+  height: 44%;
+  width: 83%;
+}
+
+.navbar__container-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar__container-links ul li {
+  margin-right: 2rem;
+}
+
+.navbar__container-signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  padding: 0.5em;
+}
+.navbar__container-signUp li {
+  margin: 1em 1em 1em 1em;
+}
+
+.navbar__container-signUp a {
+  font-size: 17px;
+  text-decoration: underline;
+}
+.navbar__container-signUp a:hover {
+  color: #fac608;
+}
+
+.navbar__container-signUp ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.btn {
+  width: 103px;
+  height: 53px;
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  background-color: #fac608;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 10px;
+  transition: 500ms;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: translate(0, -5px);
+  box-shadow: 3px 3px black;
+}

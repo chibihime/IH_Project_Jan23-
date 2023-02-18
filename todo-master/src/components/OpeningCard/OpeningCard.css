@@ -1,0 +1,46 @@
+.opening__container {
+  width: 100%;
+  min-width: 33px;
+  background: #fff;
+  box-shadow: 8px 8px black;
+
+  outline: 2px solid black;
+  padding: 0.5em 0.5em 0.5em 0.9em;
+  margin-bottom: 2.7rem;
+}
+
+.opening__container h2 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+
+  color: #000000;
+}
+
+.opening__container-show {
+  display: flex;
+  align-items: center;
+}
+
+#symbol {
+  transition: transform 500ms;
+}
+.container__plus {
+  transform: rotate(45deg);
+  transition: transform 500ms;
+}
+
+.opening__container p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.3rem;
+
+  color: #000000;
+}

@@ -1,0 +1,46 @@
+.blackText{
+    color: #000;
+}
+
+
+.faq__container {
+  background: #fac608;
+  height: 100vh;
+  width: 100%;
+}
+
+.faq__container-content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.faq__container-content h1 {
+  font-family: "Cabinet Grotesk Variable";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 99px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  color: #000000;
+}
+
+.faq__container-links {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
